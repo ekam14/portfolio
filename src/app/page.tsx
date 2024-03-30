@@ -10,45 +10,6 @@ import Head from 'next/head'
 export default function Home() {
   return (
     <main className="dark:bg-neutral-950 dark:text-neutral-50 font-space w-screen container max-w-6xl mx-auto">
-      <Head>
-        <title>Jay Vekariya</title>
-        <meta
-          name="description"
-          content="Jay Vekariya is a Full Stack Engineer with a strong affinity for clean design and well-crafted code."
-        />
-        <meta
-          property="og:title"
-          content="Jay Vekariya - Full Stack Engineer"
-        />
-        <meta
-          property="og:description"
-          content="Jay Vekariya is a Full Stack Engineer with a strong affinity for clean design and well-crafted code."
-        />
-        <meta
-          property="og:url"
-          content="https://jayvekariya.com"
-        />
-        <meta
-          property="og:image"
-          content="https://jayvekariya.com/og-image.png"
-        />
-        <meta
-          name="twitter:title"
-          content="Jay Vekariya - Full Stack Engineer"
-        />
-        <meta
-          name="twitter:description"
-          content="Jay Vekariya is a Full Stack Engineer with a strong affinity for clean design and well-crafted code."
-        />
-        <meta
-          name="twitter:url"
-          content="https://jayvekariya.com"
-        />
-        <meta
-          name="twitter:image"
-          content="https://jayvekariya.com/og-image.png"
-        />
-      </Head>
       <section className="px-6 md:px-20 antialiased">
         <Hero />
         <Skills />
