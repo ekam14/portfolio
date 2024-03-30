@@ -31,7 +31,7 @@ export const Hero = () => {
       <a
         target="_blank"
         href={'/Resume.pdf'}
-        className="px-4 py-2 mt-3 bg-neutral-50 text-neutral-950 rounded-lg md:text-lg font-bold"
+        className="px-4 py-2 mt-3 bg-gradient-to-b from-neutral-50 to-neutral-400 text-neutral-950 rounded-lg md:text-lg font-bold"
         download
         rel={'noreferrer noopener'}
       >
