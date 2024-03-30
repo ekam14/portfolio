@@ -8,7 +8,7 @@ type props = {
 
 export const Education = ({ data }: props) => {
   return (
-    <div className="flex flex-col gap-y-3 p-4 bg-neutral-900/60 rounded-xl border border-neutral-50/10">
+    <div className="flex flex-col grid-rows-subgrid gap-y-3 p-4 bg-neutral-900/60 rounded-xl border border-neutral-50/10">
       <div className="flex gap-x-3 items-center pl-1">
         <FaUniversity
           size={54}
@@ -23,7 +23,7 @@ export const Education = ({ data }: props) => {
           </div>
         </div>
       </div>
-      <div className="p-4 bg-neutral-950 border border-neutral-50/5 rounded-lg">
+      <div className="flex flex-col justify-center p-4 h-full bg-neutral-950 border border-neutral-50/5 rounded-lg">
         <p className="text-neutral-50/80">{data.degree}</p>
         <p className="text-base md:text-xl font-semibold">{data.major}</p>
       </div>
