@@ -28,16 +28,15 @@ export const Hero = () => {
         interfaces that are sleek and intuitive, paired with backend systems
         that are robust and efficient.
       </p>
-      <Link
+      <a
         target="_blank"
-        href={'public/Resume.pdf'}
+        href={'/Resume.pdf'}
         className="px-4 py-2 mt-3 bg-neutral-50 text-neutral-950 rounded-lg md:text-lg font-bold"
-        download={true}
+        download
         rel={'noreferrer noopener'}
-        locale={false}
       >
         Resume
-      </Link>
+      </a>
     </section>
   )
 }
