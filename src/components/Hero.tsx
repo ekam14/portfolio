@@ -30,7 +30,7 @@ export const Hero = () => {
       </p>
       <Link
         target="_blank"
-        href={'public/resume.pdf'}
+        href={'public/Resume.pdf'}
         className="px-4 py-2 mt-3 bg-neutral-50 text-neutral-950 rounded-lg md:text-lg font-bold"
         download={true}
         rel={'noreferrer noopener'}
