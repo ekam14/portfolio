@@ -12,9 +12,9 @@ export const Project = ({ data }: props) => {
   return (
     <div
       id="card"
-      className="w-full rounded-xl flex flex-col xl:flex-row justify-between gap-x-6 border border-neutral-50/10 bg-neutral-900/60 p-4"
+      className="w-full rounded-xl flex flex-col lg:flex-row justify-between gap-x-6 border border-neutral-50/10 bg-neutral-900/60 p-4"
     >
-      <div className="xl:w-1/2 bg-gradient-to-bl from-neutral-800/40 to-neutral-800 rounded-lg">
+      <div className="lg:w-1/2 bg-gradient-to-bl from-neutral-800/40 to-neutral-800 rounded-lg">
         <Image
           src={data.image}
           alt="screenshot"
@@ -23,7 +23,7 @@ export const Project = ({ data }: props) => {
           className="w-full h-full"
         />
       </div>
-      <div className="xl:w-1/2 pt-3 md:p-4 flex flex-col gap-y-4">
+      <div className="lg:w-1/2 pt-3 lg:p-4 flex flex-col gap-y-4">
         <div className="flex justify-between items-center text-xl md:text-2xl font-bold">
           <h4>{data.name}</h4>
           <div className="flex space-x-2">
