@@ -5,7 +5,6 @@ import { Skills } from '@/components/Skills'
 import { Experiences } from '@/components/Experiences'
 import { Educations } from '@/components/Educations'
 import { Contact } from '@/components/Contact'
-import Head from 'next/head'
 
 export default function Home() {
   return (

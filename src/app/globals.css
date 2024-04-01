@@ -1,16 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@font-face {
-  font-family: 'Supreme-Variable';
-  src: url('/fonts/Supreme-Variable.woff2') format('woff2'),
-    url('/fonts/Supreme-Variable.woff') format('woff'),
-    url('/fonts/Supreme-Variable.ttf') format('truetype');
-  font-weight: 100 800;
-  font-display: swap;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
 
 @font-face {
   font-family: 'SpaceGrotesk-Variable';
@@ -23,11 +14,11 @@
 }
 
 @font-face {
-  font-family: 'Rajdhani-Variable';
-  src: url('/fonts/Rajdhani-Variable.woff2') format('woff2'),
-    url('/fonts/Rajdhani-Variable.woff') format('woff'),
-    url('/fonts/Rajdhani-Variable.ttf') format('truetype');
-  font-weight: 300 700;
+  font-family: 'Satoshi-Variable';
+  src: url('/fonts/Satoshi-Variable.woff2') format('woff2'),
+    url('/fonts/Satoshi-Variable.woff') format('woff'),
+    url('/fonts/Satoshi-Variable.ttf') format('truetype');
+  font-weight: 300 900;
   font-display: swap;
   font-style: normal;
 }

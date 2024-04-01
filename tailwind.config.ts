@@ -23,8 +23,7 @@ const config: Config = {
       },
       fontFamily: {
         space: 'SpaceGrotesk-Variable',
-        supreme: 'Supreme-Variable',
-        rajdhani: 'Rajdhani-Variable',
+        satoshi: 'Satoshi-Variable',
       },
       animation: {
         wave: 'wave 2s ease-in-out infinite',

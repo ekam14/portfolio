@@ -8,7 +8,7 @@ export const Projects = () => {
       id="project"
       className="flex flex-col py-10 gap-y-6"
     >
-      <h3 className="text-4xl font-bold">Projects</h3>
+      <h3 className="text-4xl font-black">Projects</h3>
       <div className="flex flex-col gap-y-4">
         {projects.map((project, index) => (
           <Project

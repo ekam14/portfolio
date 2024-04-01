@@ -8,7 +8,7 @@ export const Educations = () => {
       id="education"
       className="flex flex-col py-10 gap-y-6"
     >
-      <h3 className="text-4xl font-bold">Education</h3>
+      <h3 className="text-4xl font-black">Education</h3>
       <div className="grid lg:grid-cols-2 gap-4">
         {educations.map((education, index) => (
           <Education

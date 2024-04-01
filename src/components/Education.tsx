@@ -15,7 +15,7 @@ export const Education = ({ data }: props) => {
           className="p-2.5 border border-neutral-50/10 rounded-lg bg-neutral-800/60"
         />
         <div>
-          <h4 className="text-lg md:text-2xl font-bold">{data.name}</h4>
+          <h4 className="text-lg md:text-2xl font-black">{data.name}</h4>
           <div className="flex gap-x-2 items-center text-neutral-50/80 text-sm">
             <p>{data.location}</p>
             <div className="h-1 w-1 rounded-full bg-neutral-50/50" />
