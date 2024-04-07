@@ -23,7 +23,7 @@ export default function Home() {
             Made with ❤️ by &nbsp;
             <span className="text-blue-500">Jay Vekariya</span>
           </p>
-          <p>
+          {/* <p>
             Insipired by &nbsp;
             <a
               href="https://nexflare.github.io/"
@@ -42,7 +42,7 @@ export default function Home() {
             >
               Praha37v
             </a>
-          </p>
+          </p> */}
         </div>
       </section>
     </main>
