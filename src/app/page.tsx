@@ -18,13 +18,13 @@ export default function Home() {
         <Contact />
       </section>
       <section>
-        <div className="flex gap-x-6 items-center text-lg justify-center p-4 text-center py-8">
+        <div className="flex gap-x-6 items-center text-md sm:text-lg justify-center p-4 text-center py-8">
           <p>
             Made with ❤️ by &nbsp;
             <span className="text-blue-500">Jay Vekariya</span>
           </p>
-          {/* <p>
-            Insipired by &nbsp;
+          <p>
+            Design Insipiration by &nbsp;
             <a
               href="https://nexflare.github.io/"
               target="_blank"
@@ -42,7 +42,7 @@ export default function Home() {
             >
               Praha37v
             </a>
-          </p> */}
+          </p>
         </div>
       </section>
     </main>
