@@ -52,12 +52,24 @@ export const skills = [
     logoURL: '/logos/restapi.svg',
   },
   {
+    name: 'IntelliJ',
+    logoURL: '/logos/intellij.svg',
+  },
+  {
+    name: 'VSCode',
+    logoURL: '/logos/vscode.svg',
+  },
+  {
     name: 'Docker',
     logoURL: '/logos/docker.svg',
   },
   {
     name: 'Git',
     logoURL: '/logos/git.svg',
+  },
+  {
+    name: 'GitHub',
+    logoURL: '/logos/github.svg',
   },
   {
     name: 'SQL',
