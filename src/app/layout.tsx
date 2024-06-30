@@ -2,16 +2,16 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Jay Vekariya - Full Stack Developer',
+  title: 'Ekam Singh Chahal - Full Stack Developer',
   description:
-    'Jay Vekariya is a Full Stack Developer with a strong affinity for clean design and well-crafted code.',
+    'Ekam is a Full Stack Developer with a strong affinity for clean design and well-crafted code.',
   icons: {
     icon: '/portfolio.png',
   },
   openGraph: {
-    title: 'Jay Vekariya - Full Stack Developer',
+    title: 'Ekam Singh Chahal - Full Stack Developer',
     description:
-      'Jay Vekariya is a Full Stack Developer with a strong affinity for clean design and well-crafted code.',
+      'Ekam is a Full Stack Developer with a strong affinity for clean design and well-crafted code.',
     url: 'https://web.jayv.tech',
     type: 'website',
     locale: 'en_US',

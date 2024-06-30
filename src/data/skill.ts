@@ -1,78 +1,76 @@
 export const skills = [
   {
-    name: 'Next.js',
-    logoURL: '/logos/nextjs.svg',
+    name: 'Java',
+    logoURL: '/logos/java.svg',
   },
   {
-    name: 'React',
-    logoURL: '/logos/react.svg',
+    name: 'C++',
+    logoURL: '/logos/c++.svg',
   },
   {
-    name: 'Typescript',
-    logoURL: '/logos/typescript.svg',
-  },
-  {
-    name: 'Javascript',
+    name: 'JavaScript',
     logoURL: '/logos/javascript.svg',
-  },
-  {
-    name: 'Go',
-    logoURL: '/logos/go.svg',
   },
   {
     name: 'Python',
     logoURL: '/logos/python.svg',
   },
   {
-    name: 'Java',
-    logoURL: '/logos/java.svg',
+    name: 'TypeScript',
+    logoURL: '/logos/typescript.svg',
   },
   {
-    name: 'Git',
-    logoURL: '/logos/git.svg',
-  },
-  {
-    name: 'HTML5',
+    name: 'HTML',
     logoURL: '/logos/html5.svg',
   },
   {
-    name: 'CSS3',
+    name: 'CSS',
     logoURL: '/logos/css3.svg',
+  },
+  {
+    name: 'Java Springboot',
+    logoURL: '/logos/springboot.svg',
+  },
+  {
+    name: 'NodeJS',
+    logoURL: '/logos/nodejs.svg',
+  },
+  {
+    name: 'ReactJS',
+    logoURL: '/logos/react.svg',
+  },
+  {
+    name: 'Redux',
+    logoURL: '/logos/redux.svg',
   },
   {
     name: 'Express',
     logoURL: '/logos/express.svg',
   },
   {
-    name: 'Node.js',
-    logoURL: '/logos/nodejs.svg',
+    name: 'Rest APIs',
+    logoURL: '/logos/restapi.svg',
   },
   {
-    name: 'PostgreSQL',
-    logoURL: '/logos/postgresql.svg',
+    name: 'Docker',
+    logoURL: '/logos/docker.svg',
+  },
+  {
+    name: 'Git',
+    logoURL: '/logos/git.svg',
+  },
+  {
+    name: 'SQL',
+    logoURL: '/logos/sql.svg',
   },
   {
     name: 'MongoDB',
     logoURL: '/logos/mongodb.svg',
   },
   {
-    name: 'TailwindCSS',
-    logoURL: '/logos/tailwindcss.svg',
-  },
-  {
-    name: 'Packer',
-    logoURL: '/logos/packer.svg',
-  },
-  {
-    name: 'Terraform',
-    logoURL: '/logos/terraform.svg',
-  },
-  {
-    name: 'GCP',
-    logoURL: '/logos/gcp.svg',
-  },
-  // '/logos/prisma.svg',
-  // '/logos/gsap.svg',
+    name: 'Redis',
+    logoURL: '/logos/redis.svg',
+  }
 ]
 
 export type SkillsType = {
