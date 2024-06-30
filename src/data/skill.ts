@@ -52,6 +52,10 @@ export const skills = [
     logoURL: '/logos/restapi.svg',
   },
   {
+    name: 'Linux',
+    logoURL: '/logos/linux.svg',
+  },
+  {
     name: 'IntelliJ',
     logoURL: '/logos/intellij.svg',
   },
