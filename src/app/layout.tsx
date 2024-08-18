@@ -12,7 +12,6 @@ export const metadata: Metadata = {
     title: 'Ekam Singh Chahal - Full Stack Developer',
     description:
       'Ekam is a Full Stack Developer with a strong affinity for clean design and well-crafted code.',
-    url: 'https://web.jayv.tech',
     type: 'website',
     locale: 'en_US',
     alternateLocale: 'en_IN',
